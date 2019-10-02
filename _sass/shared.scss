@@ -1,0 +1,236 @@
+body {
+  font-family: $sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2 {
+  font-family: $serif;
+  font-size: $medium-large;
+  font-weight: 400;
+  color: $red;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  color: $purple;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: $bold;
+  color: inherit;
+  transition: 0.1s linear;
+
+  &:hover {
+    color: $light-purple;
+  }
+}
+
+section {
+  padding: 2rem 2rem;
+  padding-top: 30%;
+  padding-bottom: 30%;
+
+  &.header {
+    background: $pink;
+    color: $purple;
+
+    h1 { color: $purple; }
+
+    .signup {
+      input {
+        margin: 8px;
+        border-radius: 8px;
+        font-size: $small;
+      }
+
+      .email {
+        width: 60%;
+        padding: 8px 10px;
+        border: 2px solid $peach;
+        color: gray;
+        font-style: italic;
+      }
+
+      .button {
+        padding: 8px 20px;
+        color: black;
+        background-color: $peach;
+        font-weight: 500;
+        transition: 0.1s linear;
+        border: none;
+
+        &:hover {
+          background-color: lighten($peach, 5%);
+        }
+      }
+    }
+
+    nav {
+      margin-top: 30%;
+      padding-bottom: 5%;
+    }
+  }
+
+  &.content {
+    text-align: left;
+
+    .post { margin-bottom: 30px; }
+  }
+}
+
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-layout {
+  nav {
+    margin: 15px;
+
+    h1 {
+      font-size: $regular;
+      text-align: center;
+    }
+
+    .button {
+      display: none;
+      float: right;
+      color: white;
+      background-color: $purple;
+      border-radius: 8px;
+      font-size: $small;
+      padding: 8px 20px;
+      font-weight: 500;
+      transition: 0.1s linear;
+      border: none;
+
+      &:hover {
+        background-color: lighten($purple, 5%);
+      }
+    }
+  }
+
+  .title {
+    width: 100;
+    margin: 0;
+    padding: 5%;
+    background-color: $pink;
+
+    h1 {
+      color: $purple;
+      font-size: $large;
+      text-align: left;
+    }
+  }
+
+  .container {
+    margin: 5%;
+    font-size: $regular;
+    text-align: left;
+
+    h2 {
+      font-size: $medium-large;
+      margin: 50px 0 -30px 0;
+    }
+
+    h3 { margin: 50px 0 10px 0; }
+
+    a {
+      color: $red;
+      &:hover {
+        color: $light-purple;
+      }
+    }
+  }
+
+  footer {
+    margin: 50px;
+
+    .button {
+      text-align: center;
+      color: white;
+      background-color: $purple;
+      border-radius: 8px;
+      font-size: $small;
+      padding: 8px 20px;
+      font-weight: 500;
+      transition: 0.1s linear;
+      border: none;
+
+      &:hover {
+        background-color: lighten($purple, 5%);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .column-layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: row;
+    wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-layout {
+    nav {
+      margin: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      h1 {
+        font-size: $medium;
+        text-align: left;
+      }
+
+      .button {
+        display: block;
+      }
+    }
+
+    footer { display: none; }
+  }
+
+  section {
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+
+    &.header {
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &.content {
+      overflow: auto;
+      height: 100%;
+    }
+
+    .container {
+      margin: 8% auto;
+      max-width: 70%;
+    }
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  h1, h2 { font-size: $large; }
+}
