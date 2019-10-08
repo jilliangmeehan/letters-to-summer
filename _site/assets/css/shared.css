@@ -5,7 +5,7 @@ h1, h2 { font-family: "DM Serif Display", serif; font-size: 36px; font-weight: 4
 h3 { font-weight: 500; color: #8E1E9B; margin: 0; }
 
 a { text-decoration: none; font-weight: 500; color: inherit; transition: 0.1s linear; }
-a:hover { color: #C899D3; }
+a:hover { color: #FF907A; }
 
 section { padding: 2rem 2rem; padding-top: 30%; padding-bottom: 30%; }
 section.header { background: #FFF4F4; color: #8E1E9B; }
@@ -30,7 +30,7 @@ section.content .post { margin-bottom: 30px; }
 .page-layout .container h2 { font-size: 36px; margin: 50px 0 -30px 0; }
 .page-layout .container h3 { margin: 50px 0 10px 0; }
 .page-layout .container a { color: #FF522F; }
-.page-layout .container a:hover { color: #C899D3; }
+.page-layout .container a:hover { color: #FF907A; }
 .page-layout footer { margin: 50px; }
 .page-layout footer .button { text-align: center; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout footer .button:hover { background-color: #a222b0; }
