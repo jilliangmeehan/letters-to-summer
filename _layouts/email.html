@@ -13,24 +13,56 @@
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i|DM+Serif+Display&display=swap" rel="stylesheet">
 
     <style>
+
       body {
         margin: 8%;
       }
 
       h1 {
         font-family: 'DM Serif Display', serif;
+        font-weight: 400;
         color: #8E1E9B;
       }
 
       h2 {
         font-family: 'DM Serif Display', serif;
+        font-weight: 400;
         color: #FF522F;
+      }
+
+      h3 {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        color: #8E1E9B;
       }
 
       p {
         font-family: 'DM Sans', sans-serif;
         line-height: 190%;
       }
+
+      a {
+        color: #FF522F;
+      }
+
+      .divider {
+        padding: 15px 0;
+      }
+
+      .button {
+        text-decoration: none;
+        font-family: 'DM Sans', sans-serif;
+        background-color: #8E1E9B;
+        color: white;
+        border-radius: 8px;
+        padding: 8px 20px;
+      }
+
+      .subscribe {
+        margin: 30px auto -10px auto;
+        text-align: center;
+      }
+
     </style>
 
   </head>
@@ -38,16 +70,18 @@
     <header>
       <h1>Letters to Summer</h1>
       <h2>{{ page.title }}</h2>
-      <p><small><em>Letters to Summer is a newsletter written by two best friends living on opposite sides of the country. Every other Thursday, we share the things we're reading, watching, listening to, and enjoying. We hope you like it.</em></small></p>
+      <p class="pink"><small><em>Letters to Summer is a newsletter written by two best friends living on opposite sides of the country. Every other Thursday, we share the things we're reading, watching, listening to, and enjoying. We hope you like it.</em></small></p>
       <div class="divider"></div>
     </header>
     {{ content }}
     <footer>
       <div class="divider"></div>
       <p><small>Thanks for reading! If you liked this letter, please share it with your friends. If you want to read past letters, you can <a href="https://letterstosummer.com">visit our website.</a> We'll see you again in two weeks.</small></p>
-      <a class="button" href="https://letterstosummer.com/subscribe">Subscribe</a>
+      <div class="subscribe">
+        <a class="button" href="https://letterstosummer.com/subscribe">Subscribe</a>
+      </div>
       <div class="divider"></div>
-      <p><small>Other text required by Mailchimp.</small></p>
+      <p class="pink"><small>Other text required by Mailchimp.</small></p>
     </footer>
   </body>
 </html>
