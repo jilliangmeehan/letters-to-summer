@@ -51,6 +51,8 @@ section.content .post { margin-bottom: 40px; }
   .page-layout .title h1 { color: #BF76C8; }
   .page-layout nav .button { background-color: #BF76C8; color: #232323; }
   .page-layout nav .button:hover { background-color: #c888cf; }
+  .page-layout footer .button { background-color: #BF76C8; color: #232323; }
+  .page-layout footer .button:hover { background-color: #c888cf; }
   .signup .email { background-color: #232323; border: none; }
   .signup .button { background-color: #EB6247; color: #FFF4F4; }
   .signup .button:hover { background-color: #ee765e; }
