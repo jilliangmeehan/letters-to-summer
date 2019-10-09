@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <meta description={{ page.description }}>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% include social.html %}
+    {% include favicon.html %}
+
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i|DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 8%;
+      }
+
+      h1 {
+        font-family: 'DM Serif Display', serif;
+        color: #8E1E9B;
+      }
+
+      h2 {
+        font-family: 'DM Serif Display', serif;
+        color: #FF522F;
+      }
+
+      p {
+        font-family: 'DM Sans', sans-serif;
+        line-height: 190%;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <h1>Letters to Summer</h1>
+      <h2>{{ page.title }}</h2>
+      <p><small><em>Letters to Summer is a newsletter written by two best friends living on opposite sides of the country. Every other Thursday, we share the things we're reading, watching, listening to, and enjoying. We hope you like it.</em></small></p>
+      <div class="divider"></div>
+    </header>
+    {{ content }}
+    <footer>
+      <div class="divider"></div>
+      <p><small>Thanks for reading! If you liked this letter, please share it with your friends. If you want to read past letters, you can <a href="https://letterstosummer.com">visit our website.</a> We'll see you again in two weeks.</small></p>
+      <a class="button" href="https://letterstosummer.com/subscribe">Subscribe</a>
+      <div class="divider"></div>
+      <p><small>Other text required by Mailchimp.</small></p>
+    </footer>
+  </body>
+</html>
