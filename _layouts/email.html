@@ -74,14 +74,14 @@
       }
 
       @media screen and (min-width: 600px) {
-        body { text-align: center; }
+        .content {
+          margin: 0 auto;
+          max-width: 600px;
+        }
         h1 { font-size: 24px; }
         h2 { font-size: 22px; }
         h3 { font-size: 20px; }
-        p {
-          font-size: 18px;
-          max-width: 500px;
-        }
+        p { font-size: 18px; }
         hr { max-width: 100%; }
         .pink { max-width: 100%; }
       }
@@ -97,7 +97,9 @@
       <p><small><em>Letters to Summer is a newsletter written by two best friends living on opposite sides of the country. Every other Thursday, we share the things we're reading, watching, listening to, and enjoying. We hope you like it.</em></small></p>
       <hr>
     </header>
-    {{ content }}
+    <div class="content">
+      {{ content }}
+    </div>
     <footer>
       <hr>
       <p><small>Thanks for reading! If you liked this letter, please share it with your friends. If you want to read past letters, you can <a href="https://letterstosummer.com">visit our website.</a> We'll see you again in two weeks.</small></p>
