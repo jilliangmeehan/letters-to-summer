@@ -177,19 +177,24 @@ section {
 }
 
 @media (prefers-color-scheme: dark) {
-  body { background-color: $dark; }
-  h1, h2 { color: $red-dark; }
+  body {
+    background-color: $dark;
+    color: $pink;
+  }
+  h1, h2 { color: $peach; }
   h3 { color: $purple-dark; }
   p {
-    color: $pink;
     line-height: 200%;
     word-spacing: .05em;
   }
-  a:hover { color: lighten($red-dark, 15%); }
+  a {
+    color: $peach;
+    &:hover { color: lighten($peach, 15%); }
+  }
 
   section.header {
     background: $pink-dark;
-    h1 { color: $purple-dark; }
+    h1, p { color: $purple-dark; }
   }
 
   .page-layout {
