@@ -220,6 +220,14 @@ section {
         &:hover { background-color: lighten($purple-dark, 5%); }
       }
     }
+
+    footer {
+      .button {
+        background-color: $purple-dark;
+        color: $dark;
+        &:hover { background-color: lighten($purple-dark, 5%); }
+      }
+    }
   }
 
   .signup {
