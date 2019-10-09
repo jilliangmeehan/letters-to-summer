@@ -19,7 +19,7 @@ section.content .post { margin-bottom: 40px; }
 .column-layout { display: flex; flex-direction: column; }
 
 .page-layout nav { margin: 15px; }
-.page-layout nav h1 { font-size: 18px; text-align: center; }
+.page-layout nav h1 { font-family: "DM Sans", sans-serif; font-size: 18px; text-align: center; }
 .page-layout nav .button { display: none; float: right; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout nav .button:hover { background-color: #a222b0; }
 .page-layout .title { width: 100; margin: 0; padding: 5%; background-color: #FFF4F4; }
@@ -40,7 +40,7 @@ section.content .post { margin-bottom: 40px; }
 @media (prefers-color-scheme: dark) { body { background-color: #232323; }
   h1, h2 { color: #EB6247; }
   h3 { color: #BF76C8; }
-  p { color: #FFF4F4; }
+  p { color: #FFF4F4; line-height: 200%; word-spacing: .05em; }
   a:hover { color: #f39d8c; }
   section.header { background: rgba(255, 244, 244, 0.1); }
   section.header h1 { color: #BF76C8; }
@@ -51,10 +51,16 @@ section.content .post { margin-bottom: 40px; }
   .signup .email { background-color: #232323; border: none; }
   .signup .button { background-color: #EB6247; color: #FFF4F4; }
   .signup .button:hover { background-color: #ee765e; } }
-@media screen and (min-width: 750px) { .column-layout { width: 100%; height: 100%; position: absolute; flex-direction: row; wrap: nowrap; justify-content: center; align-items: center; }
+@media screen and (min-width: 750px) { p { font-size: 18px; }
+  section.content p { font-size: 16px; }
+  .column-layout { width: 100%; height: 100%; position: absolute; flex-direction: row; wrap: nowrap; justify-content: center; align-items: center; }
   .page-layout nav { margin: 25px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; }
   .page-layout nav h1 { font-size: 24px; text-align: left; }
   .page-layout nav .button { display: block; }
+  .page-layout .container { margin: 8% 12%; }
+  .page-layout .container p { font-size: 20px; }
+  .page-layout .container h2 { font-size: 36px; }
+  .page-layout .container h3 { font-size: 24px; }
   .page-layout footer { display: none; }
   section { padding: 0; width: 50%; margin: 0 auto; }
   section.header { height: 100%; overflow: hidden; display: flex; flex-direction: column; justify-content: center; align-items: center; }
