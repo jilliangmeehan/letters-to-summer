@@ -32,7 +32,7 @@ section.content .post { margin-bottom: 40px; }
 .page-layout footer .button { text-align: center; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout footer .button:hover { background-color: #a222b0; }
 
-.signup input { margin: 8px; border-radius: 8px; font-size: 14px; }
+.signup input { margin: 8px; border-radius: 8px; font-size: 14px; -webkit-appearance: none; }
 .signup .email { width: 60%; padding: 8px 10px; border: none; color: gray; font-style: italic; }
 .signup .button { padding: 8px 20px; color: black; background-color: #FF907A; font-weight: 500; transition: 0.1s linear; border: none; }
 .signup .button:hover { background-color: #ffa594; }
