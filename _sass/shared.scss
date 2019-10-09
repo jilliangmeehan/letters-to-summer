@@ -35,7 +35,7 @@ a {
   transition: 0.1s linear;
 
   &:hover {
-    color: lighten($red, 5%);
+    color: lighten($red, 15%);
   }
 }
 
@@ -70,7 +70,7 @@ section {
 
 .page-layout {
   nav {
-    margin: 15px;
+    margin: 35px;
 
     h1 {
       font-family: $sans-serif;
@@ -99,13 +99,13 @@ section {
   .title {
     width: 100;
     margin: 0;
-    padding: 5%;
+    padding: 10%;
     background-color: $pink;
 
     h1 {
       color: $purple;
       font-size: $large;
-      text-align: left;
+      text-align: center;
     }
   }
 
@@ -319,4 +319,9 @@ section {
 @media screen and (min-width: 1020px) {
   h1, h2 { font-size: $large; }
   .subscribe { padding: 0 30%; }
+  .page-layout {
+    .title {
+      h1 { font-size: $extra-large; }
+     }
+  }
 }

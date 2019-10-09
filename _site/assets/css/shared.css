@@ -7,7 +7,7 @@ h3 { font-weight: 500; color: #8E1E9B; margin: 0; }
 p { font-size: 16px; line-height: 185%; }
 
 a { text-decoration: none; font-weight: 500; color: #FF522F; transition: 0.1s linear; }
-a:hover { color: #ff6749; }
+a:hover { color: #ff927c; }
 
 section { padding: 2rem 2rem; padding-top: 30%; padding-bottom: 30%; }
 section.header { background: #FFF4F4; color: #8E1E9B; }
@@ -18,12 +18,12 @@ section.content .post { margin-bottom: 40px; }
 
 .column-layout { display: flex; flex-direction: column; }
 
-.page-layout nav { margin: 15px; }
+.page-layout nav { margin: 35px; }
 .page-layout nav h1 { font-family: "DM Sans", sans-serif; font-size: 18px; text-align: center; }
 .page-layout nav .button { display: none; float: right; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout nav .button:hover { background-color: #a222b0; }
-.page-layout .title { width: 100; margin: 0; padding: 5%; background-color: #FFF4F4; }
-.page-layout .title h1 { color: #8E1E9B; font-size: 48px; text-align: left; }
+.page-layout .title { width: 100; margin: 0; padding: 10%; background-color: #FFF4F4; }
+.page-layout .title h1 { color: #8E1E9B; font-size: 48px; text-align: center; }
 .page-layout .container { margin: 8%; text-align: left; }
 .page-layout .container h2 { font-size: 36px; margin: 50px 0 -10px 0; }
 .page-layout .container h3 { margin: 50px 0 -10px 0; }
@@ -74,4 +74,5 @@ section.content .post { margin-bottom: 40px; }
   section .container { margin: 8% auto; max-width: 70%; }
   .subscribe { padding: 0 20%; } }
 @media screen and (min-width: 1020px) { h1, h2 { font-size: 48px; }
-  .subscribe { padding: 0 30%; } }
+  .subscribe { padding: 0 30%; }
+  .page-layout .title h1 { font-size: 72px; } }
