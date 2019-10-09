@@ -4,6 +4,8 @@ h1, h2 { font-family: "DM Serif Display", serif; font-size: 36px; font-weight: 4
 
 h3 { font-weight: 500; color: #8E1E9B; margin: 0; }
 
+p { font-size: 16px; line-height: 185%; }
+
 a { text-decoration: none; font-weight: 500; color: #FF522F; transition: 0.1s linear; }
 a:hover { color: #ff6749; }
 
@@ -12,7 +14,7 @@ section.header { background: #FFF4F4; color: #8E1E9B; }
 section.header h1 { color: #8E1E9B; }
 section.header nav { margin-top: 30%; padding-bottom: 5%; }
 section.content { text-align: left; }
-section.content .post { margin-bottom: 30px; }
+section.content .post { margin-bottom: 40px; }
 
 .column-layout { display: flex; flex-direction: column; }
 
@@ -22,9 +24,10 @@ section.content .post { margin-bottom: 30px; }
 .page-layout nav .button:hover { background-color: #a222b0; }
 .page-layout .title { width: 100; margin: 0; padding: 5%; background-color: #FFF4F4; }
 .page-layout .title h1 { color: #8E1E9B; font-size: 48px; text-align: left; }
-.page-layout .container { margin: 5%; font-size: 18px; text-align: left; }
-.page-layout .container h2 { font-size: 36px; margin: 50px 0 -30px 0; }
-.page-layout .container h3 { margin: 50px 0 10px 0; }
+.page-layout .container { margin: 8%; text-align: left; }
+.page-layout .container h2 { font-size: 36px; margin: 50px 0 -10px 0; }
+.page-layout .container h3 { margin: 50px 0 -10px 0; }
+.page-layout .container p { margin: 25px 0 25px 0; }
 .page-layout footer { margin: 50px; }
 .page-layout footer .button { text-align: center; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout footer .button:hover { background-color: #a222b0; }

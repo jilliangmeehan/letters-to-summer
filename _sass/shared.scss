@@ -23,6 +23,11 @@ h3 {
   margin: 0;
 }
 
+p {
+  font-size: $small-ish;
+  line-height: 185%;
+}
+
 a {
   text-decoration: none;
   font-weight: $bold;
@@ -54,7 +59,7 @@ section {
   &.content {
     text-align: left;
 
-    .post { margin-bottom: 30px; }
+    .post { margin-bottom: 40px; }
   }
 }
 
@@ -104,16 +109,17 @@ section {
   }
 
   .container {
-    margin: 5%;
-    font-size: $regular;
+    margin: 8%;
     text-align: left;
 
     h2 {
       font-size: $medium-large;
-      margin: 50px 0 -30px 0;
+      margin: 50px 0 -10px 0;
     }
 
-    h3 { margin: 50px 0 10px 0; }
+    h3 { margin: 50px 0 -10px 0; }
+
+    p { margin: 25px 0 25px 0; }
 
   }
 
