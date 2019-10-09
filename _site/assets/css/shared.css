@@ -15,6 +15,7 @@ section.header h1 { color: #8E1E9B; }
 section.header nav { margin-top: 30%; padding-bottom: 5%; }
 section.content { text-align: left; }
 section.content .post { margin-bottom: 40px; }
+section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF907A; margin: 0; }
 
 .column-layout { display: flex; flex-direction: column; }
 
@@ -24,6 +25,7 @@ section.content .post { margin-bottom: 40px; }
 .page-layout nav .button:hover { background-color: #a222b0; }
 .page-layout .title { width: 100; margin: 0; padding: 10%; background-color: #FFF4F4; }
 .page-layout .title h1 { color: #8E1E9B; font-size: 48px; text-align: center; }
+.page-layout .title .date { font-size: 0.8em; font-style: italic; color: #FF907A; margin: 10% auto -10% auto; letter-spacing: 2px; }
 .page-layout .container { margin: 8%; text-align: left; }
 .page-layout .container h2 { font-size: 36px; margin: 50px 0 -10px 0; }
 .page-layout .container h3 { margin: 50px 0 -10px 0; }
