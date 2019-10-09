@@ -4,16 +4,12 @@ h1, h2 { font-family: "DM Serif Display", serif; font-size: 36px; font-weight: 4
 
 h3 { font-weight: 500; color: #8E1E9B; margin: 0; }
 
-a { text-decoration: none; font-weight: 500; color: inherit; transition: 0.1s linear; }
-a:hover { color: #FF907A; }
+a { text-decoration: none; font-weight: 500; color: #FF522F; transition: 0.1s linear; }
+a:hover { color: #ff6749; }
 
 section { padding: 2rem 2rem; padding-top: 30%; padding-bottom: 30%; }
 section.header { background: #FFF4F4; color: #8E1E9B; }
 section.header h1 { color: #8E1E9B; }
-section.header .signup input { margin: 8px; border-radius: 8px; font-size: 14px; }
-section.header .signup .email { width: 60%; padding: 8px 10px; border: 2px solid #FF907A; color: gray; font-style: italic; }
-section.header .signup .button { padding: 8px 20px; color: black; background-color: #FF907A; font-weight: 500; transition: 0.1s linear; border: none; }
-section.header .signup .button:hover { background-color: #ffa594; }
 section.header nav { margin-top: 30%; padding-bottom: 5%; }
 section.content { text-align: left; }
 section.content .post { margin-bottom: 30px; }
@@ -29,12 +25,29 @@ section.content .post { margin-bottom: 30px; }
 .page-layout .container { margin: 5%; font-size: 18px; text-align: left; }
 .page-layout .container h2 { font-size: 36px; margin: 50px 0 -30px 0; }
 .page-layout .container h3 { margin: 50px 0 10px 0; }
-.page-layout .container a { color: #FF522F; }
-.page-layout .container a:hover { color: #FF907A; }
 .page-layout footer { margin: 50px; }
 .page-layout footer .button { text-align: center; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout footer .button:hover { background-color: #a222b0; }
 
+.signup input { margin: 8px; border-radius: 8px; font-size: 14px; }
+.signup .email { width: 60%; padding: 8px 10px; border: none; color: gray; font-style: italic; }
+.signup .button { padding: 8px 20px; color: black; background-color: #FF907A; font-weight: 500; transition: 0.1s linear; border: none; }
+.signup .button:hover { background-color: #ffa594; }
+
+@media (prefers-color-scheme: dark) { body { background-color: #232323; }
+  h1, h2 { color: #EB6247; }
+  h3 { color: #BF76C8; }
+  p { color: #FFF4F4; }
+  a:hover { color: #f39d8c; }
+  section.header { background: rgba(255, 244, 244, 0.1); }
+  section.header h1 { color: #BF76C8; }
+  .page-layout .title { background-color: rgba(255, 244, 244, 0.1); }
+  .page-layout .title h1 { color: #BF76C8; }
+  .page-layout nav .button { background-color: #BF76C8; color: #232323; }
+  .page-layout nav .button:hover { background-color: #c888cf; }
+  .signup .email { background-color: #232323; border: none; }
+  .signup .button { background-color: #EB6247; color: #FFF4F4; }
+  .signup .button:hover { background-color: #ee765e; } }
 @media screen and (min-width: 750px) { .column-layout { width: 100%; height: 100%; position: absolute; flex-direction: row; wrap: nowrap; justify-content: center; align-items: center; }
   .page-layout nav { margin: 25px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; }
   .page-layout nav h1 { font-size: 24px; text-align: left; }

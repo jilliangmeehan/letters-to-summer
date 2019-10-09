@@ -26,11 +26,11 @@ h3 {
 a {
   text-decoration: none;
   font-weight: $bold;
-  color: inherit;
+  color: $red;
   transition: 0.1s linear;
 
   &:hover {
-    color: $peach;
+    color: lighten($red, 5%);
   }
 }
 
@@ -44,35 +44,6 @@ section {
     color: $purple;
 
     h1 { color: $purple; }
-
-    .signup {
-      input {
-        margin: 8px;
-        border-radius: 8px;
-        font-size: $small;
-      }
-
-      .email {
-        width: 60%;
-        padding: 8px 10px;
-        border: 2px solid $peach;
-        color: gray;
-        font-style: italic;
-      }
-
-      .button {
-        padding: 8px 20px;
-        color: black;
-        background-color: $peach;
-        font-weight: 500;
-        transition: 0.1s linear;
-        border: none;
-
-        &:hover {
-          background-color: lighten($peach, 5%);
-        }
-      }
-    }
 
     nav {
       margin-top: 30%;
@@ -144,12 +115,6 @@ section {
 
     h3 { margin: 50px 0 10px 0; }
 
-    a {
-      color: $red;
-      &:hover {
-        color: $peach;
-      }
-    }
   }
 
   footer {
@@ -169,6 +134,75 @@ section {
       &:hover {
         background-color: lighten($purple, 5%);
       }
+    }
+  }
+}
+
+.signup {
+  input {
+    margin: 8px;
+    border-radius: 8px;
+    font-size: $small;
+  }
+
+  .email {
+    width: 60%;
+    padding: 8px 10px;
+    border: none;
+    color: gray;
+    font-style: italic;
+  }
+
+  .button {
+    padding: 8px 20px;
+    color: black;
+    background-color: $peach;
+    font-weight: 500;
+    transition: 0.1s linear;
+    border: none;
+
+    &:hover {
+      background-color: lighten($peach, 5%);
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body { background-color: $dark; }
+  h1, h2 { color: $red-dark; }
+  h3 { color: $purple-dark; }
+  p { color: $pink; }
+  a:hover { color: lighten($red-dark, 15%); }
+
+  section.header {
+    background: $pink-dark;
+    h1 { color: $purple-dark; }
+  }
+
+  .page-layout {
+    .title {
+      background-color: $pink-dark;
+      h1 { color: $purple-dark; }
+    }
+
+    nav {
+      .button {
+        background-color: $purple-dark;
+        color: $dark;
+        &:hover { background-color: lighten($purple-dark, 5%); }
+      }
+    }
+  }
+
+  .signup {
+    .email {
+      background-color: $dark;
+      border: none;
+    }
+    .button {
+      background-color: $red-dark;
+      color: $pink;
+      &:hover { background-color: lighten($red-dark, 5%);}
     }
   }
 }
