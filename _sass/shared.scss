@@ -186,6 +186,8 @@ section {
   padding: 0 12%;
 }
 
+.peach { color: $peach; }
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: $dark;
