@@ -176,6 +176,16 @@ section {
   }
 }
 
+.subscribe {
+  height: 100vh;
+  background-color: $pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 12%;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: $dark;
@@ -223,6 +233,8 @@ section {
       &:hover { background-color: lighten($red-dark, 5%);}
     }
   }
+
+  .subscribe { background-color: $pink-dark; }
 }
 
 @media screen and (min-width: 750px) {
@@ -292,8 +304,11 @@ section {
       max-width: 70%;
     }
   }
+
+  .subscribe { padding: 0 20%; }
 }
 
 @media screen and (min-width: 1020px) {
   h1, h2 { font-size: $large; }
+  .subscribe { padding: 0 30%; }
 }
