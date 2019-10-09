@@ -95,4 +95,7 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/subscribe.html</loc>
+</url>
 </urlset>
