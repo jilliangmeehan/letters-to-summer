@@ -202,6 +202,17 @@ section {
   padding: 0 12%;
 }
 
+.tags {
+
+  .tag {
+    font-size: $small;
+    background-color: $yellow;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: auto 5px auto 0;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: $dark;
