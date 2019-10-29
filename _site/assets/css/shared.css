@@ -67,7 +67,7 @@ section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF90
   .page-layout nav { margin: 25px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; }
   .page-layout nav h1 { font-size: 24px; text-align: left; }
   .page-layout nav .button { display: block; }
-  .page-layout .container { margin: 8% 12%; }
+  .page-layout .container { max-width: 750px; margin: 8% auto; }
   .page-layout .container p { font-size: 20px; }
   .page-layout .container h2 { font-size: 36px; }
   .page-layout .container h3 { font-size: 24px; }

@@ -307,7 +307,8 @@ section {
       }
     }
     .container {
-      margin: 8% 12%;
+      max-width: 750px;
+      margin: 8% auto;
       p { font-size: $medium-ish; }
       h2 { font-size: $medium-large; }
       h3 { font-size: $medium; }
