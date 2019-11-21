@@ -63,6 +63,7 @@ section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF90
   .page-layout .title { background-color: rgba(255, 244, 244, 0.1); }
   .page-layout .title h1 { color: #BF76C8; }
   .page-layout .chat p { color: #232323; }
+  .page-layout .chat .normal { color: #FFF4F4; }
   .page-layout nav .button { background-color: #BF76C8; color: #232323; }
   .page-layout nav .button:hover { background-color: #c888cf; }
   .page-layout footer .button { background-color: #BF76C8; color: #232323; }

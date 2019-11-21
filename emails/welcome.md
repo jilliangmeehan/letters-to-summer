@@ -1,6 +1,6 @@
 ---
 layout: email
-title: Welcome
+title: Hi there! 👋
 permalink: /email/welcome
 url: /
 ---
