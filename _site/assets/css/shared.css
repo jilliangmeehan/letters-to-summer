@@ -30,7 +30,16 @@ section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF90
 .page-layout .container h2 { font-size: 36px; margin: 50px 0 -10px 0; }
 .page-layout .container h3 { margin: 50px 0 -10px 0; }
 .page-layout .container p { margin: 25px 0 25px 0; }
-.page-layout footer { margin: 50px; }
+.page-layout .container .chat p { margin: 10px 0; }
+.page-layout .container .chat .bubble-jillian { float: left; clear: both; padding: 15px; border-radius: 22px 22px 22px 2px; max-width: 500px; background-color: #FF907A; font-size: 16px; }
+.page-layout .container .chat .bubble-jillian a { color: black; }
+.page-layout .container .chat .bubble-jillian a:hover { color: white; }
+.page-layout .container .chat .bubble-summer { float: right; clear: both; padding: 15px; border-radius: 22px 22px 2px 22px; max-width: 500px; background-color: #C899D3; font-size: 16px; }
+.page-layout .container .chat .bubble-summer a { color: black; }
+.page-layout .container .chat .bubble-summer a:hover { color: white; }
+.page-layout .container .chat .name-jillian { float: left; clear: both; color: #FF907A; font-size: 16px; }
+.page-layout .container .chat .name-summer { float: right; clear: both; color: #C899D3; text-align: right; font-size: 16px; }
+.page-layout footer { margin: 50px; clear: both; }
 .page-layout footer .button { text-align: center; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout footer .button:hover { background-color: #a222b0; }
 
@@ -53,6 +62,7 @@ section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF90
   section.header h1, section.header p { color: #BF76C8; }
   .page-layout .title { background-color: rgba(255, 244, 244, 0.1); }
   .page-layout .title h1 { color: #BF76C8; }
+  .page-layout .chat p { color: #232323; }
   .page-layout nav .button { background-color: #BF76C8; color: #232323; }
   .page-layout nav .button:hover { background-color: #c888cf; }
   .page-layout footer .button { background-color: #BF76C8; color: #232323; }

@@ -138,10 +138,54 @@ section {
 
     p { margin: 25px 0 25px 0; }
 
+    .chat {
+      p { margin: 10px 0; }
+
+      .bubble-jillian {
+        float: left;
+        clear: both;
+        padding: 15px;
+        border-radius: 22px 22px 22px 2px;
+        max-width: 500px;
+        background-color: $peach;
+        font-size: $small-ish;
+        a { color: black; }
+        a:hover { color: white; }
+      }
+
+      .bubble-summer {
+        float: right;
+        clear: both;
+        padding: 15px;
+        border-radius: 22px 22px 2px 22px;
+        max-width: 500px;
+        background-color: $light-purple;
+        font-size: $small-ish;
+        a { color: black; }
+        a:hover { color: white; }
+      }
+
+      .name-jillian {
+        float: left;
+        clear: both;
+        color: $peach;
+        font-size: $small-ish;
+      }
+
+      .name-summer {
+        float: right;
+        clear: both;
+        color: $light-purple;
+        text-align: right;
+        font-size: $small-ish;
+      }
+    }
+
   }
 
   footer {
     margin: 50px;
+    clear: both;
 
     .button {
       text-align: center;
@@ -238,6 +282,9 @@ section {
     .title {
       background-color: $pink-dark;
       h1 { color: $purple-dark; }
+    }
+    .chat {
+      p { color: $dark; }
     }
 
     nav {
