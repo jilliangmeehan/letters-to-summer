@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="page-layout">
+  <nav>
+    <h1><a href="/index.html">Letters to Summer</a></h1>
+    <a class="button" href="/subscribe">Subscribe</a>
+    <!-- <a href="/about">about</a>
+    <a href="archive">archive</a> -->
+  </nav>
+  <div class="title">
+    <h1>{{ page.title }}</h1>
+    <p class="date">{{ page.date | date: '%B %d, %Y' }}</p>
+  </div>
+  <div class="container">
+    {{ content }}
+  </div>
+  <footer>
+    <a class="button" href="/subscribe">Subscribe</a>
+  </footer>
+</div>
