@@ -1,8 +1,8 @@
 ---
+title: "Hi there! \U0001F44B"
+permalink: "/email/welcome"
 layout: email
-title: Hi there! 👋
-permalink: /email/welcome
-url: /
+url: "/"
 ---
 
 Thanks for subscribing to Letters to Summer! We're excited to share our thoughts with you. 😌
