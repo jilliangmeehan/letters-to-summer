@@ -6,7 +6,7 @@ tags:
 - "\U0001F4D6 Reads"
 - "✉️ Newsletter"
 - "\U0001F517 Link"
-Description: Our thoughts on letting go, a newsletter for self care, good writing
+description: Our thoughts on letting go, a newsletter for self care, good writing
   from friends, and a guide to goal-setting.
 id: 27
 layout: post
