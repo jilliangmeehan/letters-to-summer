@@ -2,7 +2,7 @@
 title: Letter 27
 date: 2019-12-05 14:07:00 Z
 permalink: "/email/27"
-url: "/27"
+url: https://letterstosummer.com/27
 layout: email
 ---
 
