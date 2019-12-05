@@ -1,6 +1,7 @@
 ---
 title: Letter 27
 date: 2019-12-05 14:00:00 Z
+permalink: "/27"
 tags:
 - "\U0001F4D6 Reads"
 - "✉️ Newsletter"
@@ -8,6 +9,7 @@ tags:
 Description: Our thoughts on letting go, a newsletter for self care, good writing
   from friends, and a guide to goal-setting.
 id: 27
+layout: post
 ---
 
 ## Our thoughts on letting go
