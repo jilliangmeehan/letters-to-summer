@@ -25,7 +25,7 @@ section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF90
 .page-layout nav .button:hover { background-color: #a222b0; }
 .page-layout .title { width: 100; margin: 0; padding: 10%; background-color: #FFF4F4; }
 .page-layout .title h1 { color: #8E1E9B; font-size: 48px; text-align: center; }
-.page-layout .title .date { font-size: 0.8em; font-style: italic; color: #FF907A; margin: 10% auto -10% auto; letter-spacing: 2px; }
+.page-layout .title .sub { font-size: 0.8em; font-style: italic; color: #FF907A; margin: 10% auto -10% auto; letter-spacing: 2px; }
 .page-layout .container { margin: 8%; text-align: left; }
 .page-layout .container h2 { font-size: 36px; margin: 50px 0 -10px 0; }
 .page-layout .container h3 { margin: 50px 0 -10px 0; }
@@ -42,6 +42,9 @@ section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF90
 .page-layout footer { margin: 50px; clear: both; }
 .page-layout footer .button { text-align: center; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout footer .button:hover { background-color: #a222b0; }
+.page-layout.tags .title h1 { font-size: 36px; }
+.page-layout.tags .post { margin-bottom: 40px; }
+.page-layout.tags .post .date { font-size: 0.8em; font-style: italic; color: #FF907A; margin: 0; }
 
 .signup input { margin: 8px; border-radius: 8px; font-size: 14px; -webkit-appearance: none; font-family: "DM Sans", sans-serif; }
 .signup .email { width: 60%; padding: 8px 10px; border: none; color: gray; font-style: italic; }
@@ -71,7 +74,9 @@ section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF90
   .signup .email { background-color: #232323; border: none; }
   .signup .button { background-color: #EB6247; color: #FFF4F4; }
   .signup .button:hover { background-color: #ee765e; }
-  .subscribe { background-color: rgba(255, 244, 244, 0.1); } }
+  .subscribe { background-color: rgba(255, 244, 244, 0.1); }
+  .tags .tag { color: #FFF1D5; background-color: rgba(255, 244, 244, 0.1); }
+  .tags .tag:hover { color: #FF907A; } }
 @media screen and (min-width: 750px) { p { font-size: 18px; }
   section.content p { font-size: 16px; }
   .column-layout { width: 100%; height: 100%; position: absolute; flex-direction: row; wrap: nowrap; justify-content: center; align-items: center; }
