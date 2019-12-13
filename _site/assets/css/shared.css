@@ -44,8 +44,10 @@ section.content .post .tag { white-space: nowrap; display: inline-block; margin-
 .page-layout footer .button { text-align: center; color: white; background-color: #8E1E9B; border-radius: 8px; font-size: 14px; padding: 8px 20px; font-weight: 500; transition: 0.1s linear; border: none; }
 .page-layout footer .button:hover { background-color: #a222b0; }
 .page-layout.tags .title h1 { font-size: 36px; }
-.page-layout.tags .post { margin-bottom: 40px; }
+.page-layout.tags .post { max-width: 500px; margin: 0 auto; margin-bottom: 40px; }
+.page-layout.tags .post h2 { font-size: 24px; margin: auto; }
 .page-layout.tags .post .date { font-size: 0.8em; font-style: italic; color: #FF907A; margin: 0; }
+.page-layout.tags .post .tag { white-space: nowrap; display: inline-block; margin-bottom: 0.8em; }
 
 .signup input { margin: 8px; border-radius: 8px; font-size: 14px; -webkit-appearance: none; font-family: "DM Sans", sans-serif; }
 .signup .email { width: 60%; padding: 8px 10px; border: none; color: gray; font-style: italic; }
@@ -89,6 +91,8 @@ section.content .post .tag { white-space: nowrap; display: inline-block; margin-
   .page-layout .container h2 { font-size: 36px; }
   .page-layout .container h3 { font-size: 24px; }
   .page-layout footer { display: none; }
+  .page-layout.tags p { font-size: 16px; }
+  .page-layout.tags h2 { font-size: 24px; }
   section { padding: 0; width: 50%; margin: 0 auto; }
   section.header { height: 100%; overflow: hidden; display: flex; flex-direction: column; justify-content: center; align-items: center; }
   section.content { overflow: auto; height: 100%; }
