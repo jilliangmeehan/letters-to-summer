@@ -3,9 +3,9 @@ title: Letter 27
 date: 2019-12-05 14:00:00 Z
 permalink: "/27"
 tags:
-- "📖 Read"
+- "\U0001F4D6 Read"
 - "✉️ Newsletter"
-- "🔗 Link"
+- "\U0001F517 Link"
 description: Our thoughts on letting go, a newsletter for self care, good writing
   from friends, and a guide to goal-setting.
 id: 27
