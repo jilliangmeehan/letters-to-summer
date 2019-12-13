@@ -12,7 +12,7 @@ layout: default
     <p class="sub">All posts in the “{{ page.title }}” tag</p>
   </div>
   <div class="container">
-    {% for post in site.tags[{{page.tag}}] %}
+    {% for post in site.tags[page.tag] %}
       <div class="post">
         <h2><a href="{{ post.url }}">{{ post.title }} →</a></h2>
         <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>

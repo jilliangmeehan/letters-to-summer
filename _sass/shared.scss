@@ -67,6 +67,11 @@ section {
         color: $peach;
         margin: 0;
       }
+      .tag {
+        white-space: nowrap;
+        display: inline-block;
+        margin-bottom: 0.8em;
+      }
     }
   }
 }
@@ -206,7 +211,7 @@ section {
 
   &.tags {
     .title {
-      h1 { font-size: $medium-large; } 
+      h1 { font-size: $medium-large; }
     }
     .post {
       margin-bottom: 40px;
