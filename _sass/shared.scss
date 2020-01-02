@@ -67,6 +67,11 @@ section {
         color: $peach;
         margin: 0;
       }
+      .tag {
+        white-space: nowrap;
+        display: inline-block;
+        margin-bottom: 0.8em;
+      }
     }
   }
 }
@@ -116,7 +121,7 @@ section {
       text-align: center;
     }
 
-    .date {
+    .sub {
       font-size: 0.8em;
       font-style: italic;
       color: $peach;
@@ -203,6 +208,32 @@ section {
       }
     }
   }
+
+  &.tags {
+    .title {
+      h1 { font-size: $medium-large; }
+    }
+    .post {
+      max-width: 500px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      h2 {
+        font-size: $medium;
+        margin: auto;
+      }
+      .date {
+        font-size: 0.8em;
+        font-style: italic;
+        color: $peach;
+        margin: 0;
+      }
+      .tag {
+        white-space: nowrap;
+        display: inline-block;
+        margin-bottom: 0.8em;
+      }
+    }
+  }
 }
 
 .signup {
@@ -247,7 +278,6 @@ section {
 }
 
 .tags {
-
   .tag {
     font-size: $small;
     background-color: $yellow;
@@ -318,6 +348,14 @@ section {
   }
 
   .subscribe { background-color: $pink-dark; }
+
+  .tags {
+    .tag {
+      color: $yellow;
+      background-color: $pink-dark;
+      &:hover { color: $peach; }
+    }
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -362,6 +400,10 @@ section {
       h3 { font-size: $medium; }
     }
     footer { display: none; }
+    &.tags {
+      p { font-size: $small-ish; }
+      h2 { font-size: $medium; }
+    }
   }
 
   section {
