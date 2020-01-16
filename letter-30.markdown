@@ -1,6 +1,6 @@
 ---
 title: Letter 30
-date: 2020-01-16 20:23:00 Z
+date: 2020-01-16 15:23:00 Z
 permalink: "/email/30"
 url: "/30"
 ---
