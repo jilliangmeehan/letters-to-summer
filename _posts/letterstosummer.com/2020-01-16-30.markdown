@@ -1,6 +1,7 @@
 ---
 title: Letter 30
 date: 2020-01-16 15:20:00 Z
+permalink: "/30"
 tags:
 - "\U0001F4FD️ Movie"
 - "\U0001F3AE Video game"
