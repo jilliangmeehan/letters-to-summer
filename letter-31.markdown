@@ -13,6 +13,14 @@ I've lived most of my life online. I found my first internet friends when I was 
 
 – *Summer*
 
+<hr>
+
+<a href="https://twitter.com/alanna/status/1219780575080394753?s=21">
+  <img src="/assets/images/tweets/31.jpg" class="tweet">
+</a>
+
+<hr>
+
 ## We recommend
 
 ### 📖 **Reconstructions** by Bradley Trumpfheller
