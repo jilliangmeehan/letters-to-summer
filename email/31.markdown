@@ -1,6 +1,9 @@
 ---
 title: Letter 31
-date: 2020-01-30 22:03:00 Z
+date: 2020-01-30 17:03:00 Z
+permalink: "/email/31"
+url: "/31"
+layout: email
 ---
 
 ## Our thoughts on social media
