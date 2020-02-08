@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
 repository: jilliangmeehan/letters-to-summer
