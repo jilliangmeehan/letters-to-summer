@@ -79,6 +79,13 @@ section {
 .column-layout {
   display: flex;
   flex-direction: column;
+
+  .kofi {
+    a { font-weight: $default; }
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
 }
 
 .page-layout {
@@ -89,6 +96,10 @@ section {
       font-family: $sans-serif;
       font-size: $regular;
       text-align: center;
+    }
+
+    .kofi {
+      display: none;
     }
 
     .button {
@@ -206,6 +217,13 @@ section {
       &:hover {
         background-color: lighten($purple, 5%);
       }
+    }
+
+    .kofi {
+      font-size: $small;
+      display: block;
+      margin: 1.8rem auto;
+      max-width: 250px;
     }
   }
 
@@ -388,9 +406,12 @@ section {
         text-align: left;
       }
 
-      .button {
-        display: block;
+      .kofi {
+        display: inline;
+        margin-right: 2rem;
       }
+
+      .button { display: inline; }
     }
     .container {
       max-width: 750px;
