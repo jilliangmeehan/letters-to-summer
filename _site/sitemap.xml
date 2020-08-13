@@ -177,6 +177,10 @@
 <lastmod>2020-07-30T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/44/</loc>
+<lastmod>2020-08-13T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/followup/email/1</loc>
 </url>
 <url>
@@ -244,6 +248,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/email/43</loc>
+</url>
+<url>
+<loc>http://localhost:4000/email/44</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tags/emergency/</loc>
