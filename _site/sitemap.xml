@@ -188,6 +188,9 @@
 <loc>http://localhost:4000/bonus/email/1</loc>
 </url>
 <url>
+<loc>http://localhost:4000/bonus/chat/1</loc>
+</url>
+<url>
 <loc>http://localhost:4000/followup/email/1</loc>
 </url>
 <url>
