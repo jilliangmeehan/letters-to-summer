@@ -206,10 +206,10 @@
 <loc>http://localhost:4000/followup/email/1</loc>
 </url>
 <url>
-<loc>http://localhost:4000/followup/email/2</loc>
+<loc>http://localhost:4000/bonus/email/2</loc>
 </url>
 <url>
-<loc>http://localhost:4000/bonus/email/2</loc>
+<loc>http://localhost:4000/followup/email/2</loc>
 </url>
 <url>
 <loc>http://localhost:4000/bonus/email/2</loc>
@@ -239,10 +239,10 @@
 <loc>http://localhost:4000/email/29</loc>
 </url>
 <url>
-<loc>http://localhost:4000/followup/email/3</loc>
+<loc>http://localhost:4000/bonus/email/3</loc>
 </url>
 <url>
-<loc>http://localhost:4000/bonus/email/3</loc>
+<loc>http://localhost:4000/followup/email/3</loc>
 </url>
 <url>
 <loc>http://localhost:4000/email/31</loc>
@@ -294,6 +294,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/email/47</loc>
+</url>
+<url>
+<loc>http://localhost:4000/email/48</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tags/emergency/</loc>
