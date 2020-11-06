@@ -201,6 +201,10 @@
 <lastmod>2020-10-22T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/50/</loc>
+<lastmod>2020-11-05T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/bonus/email/1</loc>
 </url>
 <url>
@@ -279,10 +283,10 @@
 <loc>http://localhost:4000/email/39</loc>
 </url>
 <url>
-<loc>http://localhost:4000/bonus/email/4</loc>
+<loc>http://localhost:4000/followup/email/4</loc>
 </url>
 <url>
-<loc>http://localhost:4000/followup/email/4</loc>
+<loc>http://localhost:4000/bonus/email/4</loc>
 </url>
 <url>
 <loc>http://localhost:4000/email/40</loc>
@@ -313,6 +317,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/email/49</loc>
+</url>
+<url>
+<loc>http://localhost:4000/email/50</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tags/emergency/</loc>
