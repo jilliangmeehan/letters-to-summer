@@ -1,0 +1,469 @@
+body {
+  font-family: $sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2 {
+  font-family: $serif;
+  font-size: $medium-large;
+  font-weight: 400;
+  color: $red;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  color: $purple;
+  margin: 0;
+}
+
+p {
+  font-size: $small-ish;
+  line-height: 185%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: $bold;
+  color: $red;
+  transition: 0.1s linear;
+
+  &:hover {
+    color: lighten($red, 15%);
+  }
+}
+
+section {
+  padding: 2rem 2rem;
+  padding-top: 30%;
+  padding-bottom: 30%;
+
+  &.header {
+    background: $pink;
+    color: $purple;
+
+    h1 { color: $purple; }
+
+    nav {
+      margin-top: 30%;
+      padding-bottom: 5%;
+    }
+  }
+
+  &.content {
+    text-align: left;
+
+    .post {
+      margin-bottom: 40px;
+      .date {
+        font-size: 0.8em;
+        font-style: italic;
+        color: $peach;
+        margin: 0;
+      }
+      .tag {
+        white-space: nowrap;
+        display: inline-block;
+        margin-bottom: 0.8em;
+      }
+    }
+  }
+}
+
+.column-layout {
+  display: flex;
+  flex-direction: column;
+
+  .links {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    a { font-weight: $default; }
+  }
+}
+
+.page-layout {
+  nav {
+    margin: 35px;
+
+    h1 {
+      font-family: $sans-serif;
+      font-size: $regular;
+      text-align: center;
+    }
+
+    .links {
+      display: none;
+    }
+
+    .button {
+      display: none;
+      float: right;
+      color: white;
+      background-color: $purple;
+      border-radius: 8px;
+      font-size: $small;
+      padding: 8px 20px;
+      font-weight: 500;
+      transition: 0.1s linear;
+      border: none;
+
+      &:hover {
+        background-color: lighten($purple, 5%);
+      }
+    }
+  }
+
+  .title {
+    width: 100;
+    margin: 0;
+    padding: 10%;
+    background-color: $pink;
+
+    h1 {
+      color: $purple;
+      font-size: $large;
+      text-align: center;
+    }
+
+    .sub {
+      font-size: 0.8em;
+      font-style: italic;
+      color: $peach;
+      margin: 10% auto -10% auto;
+      letter-spacing: 2px;
+    }
+  }
+
+  .container {
+    margin: 8%;
+    text-align: left;
+
+    h2 {
+      font-size: $medium-large;
+      margin: 50px 0 -10px 0;
+    }
+
+    h3 { margin: 50px 0 -10px 0; }
+
+    p { margin: 25px 0 25px 0; }
+
+    .chat {
+      p { margin: 10px 0; }
+
+      .bubble-jillian {
+        float: left;
+        clear: both;
+        padding: 15px;
+        border-radius: 22px 22px 22px 2px;
+        max-width: 500px;
+        background-color: $peach;
+        font-size: $small-ish;
+        a { color: black; }
+        a:hover { color: white; }
+      }
+
+      .bubble-summer {
+        float: right;
+        clear: both;
+        padding: 15px;
+        border-radius: 22px 22px 2px 22px;
+        max-width: 500px;
+        background-color: $light-purple;
+        font-size: $small-ish;
+        a { color: black; }
+        a:hover { color: white; }
+      }
+
+      .name-jillian {
+        float: left;
+        clear: both;
+        color: $peach;
+        font-size: $small-ish;
+      }
+
+      .name-summer {
+        float: right;
+        clear: both;
+        color: $light-purple;
+        text-align: right;
+        font-size: $small-ish;
+      }
+    }
+
+  }
+
+  footer {
+    margin: 50px;
+    clear: both;
+
+    .button {
+      text-align: center;
+      color: white;
+      background-color: $purple;
+      border-radius: 8px;
+      font-size: $small;
+      padding: 8px 20px;
+      font-weight: 500;
+      transition: 0.1s linear;
+      border: none;
+
+      &:hover {
+        background-color: lighten($purple, 5%);
+      }
+    }
+
+    .links {
+      font-size: $small;
+      display: block;
+      margin: 1.8rem auto;
+      max-width: 250px;
+    }
+  }
+
+  &.tags {
+    .title {
+      h1 { font-size: $medium-large; }
+    }
+    .post {
+      max-width: 500px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      h2 {
+        font-size: $medium;
+        margin: auto;
+      }
+      .date {
+        font-size: 0.8em;
+        font-style: italic;
+        color: $peach;
+        margin: 0;
+      }
+      .tag {
+        white-space: nowrap;
+        display: inline-block;
+        margin-bottom: 0.8em;
+      }
+    }
+  }
+}
+
+.signup {
+  input {
+    margin: 8px;
+    border-radius: 8px;
+    font-size: $small;
+    -webkit-appearance: none;
+    font-family: $sans-serif;
+  }
+
+  .email {
+    width: 60%;
+    padding: 8px 10px;
+    border: none;
+    color: gray;
+    font-style: italic;
+  }
+
+  .button {
+    padding: 8px 20px;
+    color: black;
+    background-color: $peach;
+    font-weight: 500;
+    transition: 0.1s linear;
+    border: none;
+
+    &:hover {
+      background-color: lighten($peach, 5%);
+    }
+  }
+}
+
+.subscribe {
+  height: 100vh;
+  background-color: $pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 12%;
+}
+
+.tags {
+  .tag {
+    font-size: $small;
+    background-color: $yellow;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: auto 5px auto 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $dark;
+    color: $pink;
+  }
+  h1, h2 { color: $peach; }
+  h3 { color: $purple-dark; }
+  p {
+    line-height: 200%;
+    word-spacing: .05em;
+  }
+  a {
+    color: $peach;
+    &:hover { color: lighten($peach, 15%); }
+  }
+
+  section.header {
+    background: $pink-dark;
+    h1, p { color: $purple-dark; }
+  }
+
+  .page-layout {
+    .title {
+      background-color: $pink-dark;
+      h1 { color: $purple-dark; }
+    }
+    .chat {
+      p { color: $dark; }
+      .normal { color: $pink; }
+    }
+
+    nav {
+      .button {
+        background-color: $purple-dark;
+        color: $dark;
+        &:hover { background-color: lighten($purple-dark, 5%); }
+      }
+    }
+
+    footer {
+      .button {
+        background-color: $purple-dark;
+        color: $dark;
+        &:hover { background-color: lighten($purple-dark, 5%); }
+      }
+    }
+  }
+
+  .signup {
+    .email {
+      background-color: $dark;
+      border: none;
+    }
+    .button {
+      background-color: $red-dark;
+      color: $pink;
+      &:hover { background-color: lighten($red-dark, 5%);}
+    }
+  }
+
+  .subscribe { background-color: $pink-dark; }
+
+  .tags {
+    .tag {
+      color: $yellow;
+      background-color: $pink-dark;
+      &:hover { color: $peach; }
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  p { font-size: $regular; }
+  section {
+    &.content {
+      p { font-size: $small-ish; }
+    }
+  }
+  .column-layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: row;
+    wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-layout {
+    nav {
+      margin: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      h1 {
+        font-size: $medium;
+        text-align: left;
+      }
+
+      .links {
+        display: inline;
+        margin-right: 2rem;
+      }
+
+      .button { display: inline; }
+    }
+    .container {
+      max-width: 750px;
+      margin: 8% auto;
+      p { font-size: $medium-ish; }
+      h2 { font-size: $medium-large; }
+      h3 { font-size: $medium; }
+    }
+    footer { display: none; }
+    &.tags {
+      p { font-size: $small-ish; }
+      h2 { font-size: $medium; }
+    }
+  }
+
+  section {
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+
+    &.header {
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &.content {
+      overflow: auto;
+      height: 100%;
+    }
+
+    .container {
+      margin: 8% auto;
+      max-width: 70%;
+    }
+  }
+
+  .subscribe { padding: 0 20%; }
+}
+
+@media screen and (min-width: 1020px) {
+  h1 { font-size: $large; }
+  .subscribe { padding: 0 30%; }
+  .page-layout {
+    .title {
+      h1 { font-size: $extra-large; }
+     }
+  }
+}

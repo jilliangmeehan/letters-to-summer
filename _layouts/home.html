@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="column-layout">
+  <section class="header">
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <p class="subtitle">Two friends sharing the things they're reading, watching, listening to, and enjoying. In your inbox every other Thursday.</p>
+      <div class="signup">
+        {% include mailchimp.html %}
+      </div>
+      <div class="links">
+        <a href='https://ko-fi.com/W7W01FZ37'>☕ Buy us a coffee</a>
+        <a href='https://www.patreon.com/letterstosummer'>✉️ Become a Pen Pal</a>
+      </div>
+    </div>
+  </section>
+  <section class="content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
+</div>
