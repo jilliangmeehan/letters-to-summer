@@ -300,9 +300,6 @@
 <loc>http://localhost:4000/tags/movie/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/email/welcome</loc>
-</url>
-<url>
 <loc>http://localhost:4000/tags/wellness/</loc>
 </url>
 </urlset>

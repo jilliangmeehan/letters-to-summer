@@ -8,6 +8,22 @@ collections:
   uploads:
     title: Uploads
     output: true
+  main_letters:
+    title: Main Letters
+    output: true
+    directory: /_emails/_main
+  bonus_letters:
+    title: Bonus Letters
+    output: true
+    directory: /_emails/_bonus
+  followup_letters:
+    title: Follow-up Letters
+    output: true
+    directory: /_emails/_followup
+  chat_letters:
+    title: Chat Letters
+    output: true
+    directory: /_emails/_chat
 description: Two friends sharing the things they're reading, watching, listening to,
   and enjoying. In your inbox every other Thursday.
 url: https://letterstosummer.com
