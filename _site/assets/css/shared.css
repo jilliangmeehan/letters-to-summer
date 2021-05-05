@@ -13,10 +13,14 @@ section { padding: 2rem 2rem; padding-top: 30%; padding-bottom: 30%; }
 section.header { background: #FFF4F4; color: #8E1E9B; }
 section.header h1 { color: #8E1E9B; }
 section.header nav { margin-top: 30%; padding-bottom: 5%; }
+section.shhh { padding: 0 2rem; margin: 0; width: 100vw; }
 section.content { text-align: left; }
-section.content .post { margin-bottom: 40px; }
-section.content .post .date { font-size: 0.8em; font-style: italic; color: #FF907A; margin: 0; }
-section.content .post .tag { white-space: nowrap; display: inline-block; margin-bottom: 0.8em; }
+section.content .shhh { margin-top: 4%; text-align: left; }
+section.content .shhh h1 { font-family: "DM Sans", sans-serif; font-size: 20px; color: #8E1E9B; }
+section.content .shhh h2 { font-size: 24px; }
+section .post { margin-bottom: 40px; }
+section .post .date { font-size: 0.8em; font-style: italic; color: #FF907A; margin: 0; }
+section .post .tag { white-space: nowrap; display: inline-block; margin-bottom: 0.8em; }
 
 .column-layout { display: flex; flex-direction: column; }
 .column-layout .links { position: absolute; top: 1.5rem; left: 1.5rem; display: flex; flex-direction: column; align-items: flex-start; }
