@@ -1,12 +1,25 @@
 ---
 title: Letters To Summer
 timezone: UTC
+collections_dir: collections
 collections:
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
+    output: true
+  main:
+    title: Main Letters
+    output: true
+  bonus:
+    title: Bonus Letters
+    output: true
+  followup:
+    title: Follow-up Letters
+    output: true
+  chat:
+    title: Chat Letters
     output: true
 description: Two friends sharing the things they're reading, watching, listening to,
   and enjoying. In your inbox every other Thursday.

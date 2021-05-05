@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{% assign letters = site.documents | sort: 'date' | reverse %}
+
+<div class="page-layout tags">
+  <nav>
+    <h1><a href="/index.html">Letters to Summer</a></h1>
+    <div class="right">
+      <a class="links" href='https://ko-fi.com/W7W01FZ37'>☕ Buy us a coffee</a>
+      <a class="links" href='https://www.patreon.com/letterstosummer'>✉️ Become a Pen Pal</a>
+      <a class="button" href="/subscribe">Subscribe</a>
+    </div>
+  </nav>
+  <div class="title">
+    <h1>{{ page.title }}</h1>
+    <p class="sub">All posts in the “{{ page.title }}” tag</p>
+  </div>
+  <div class="container">
+    {% for letter in letters %}
+      {% if letter.layout contains {{page.tag}} %}
+        <div class="post">
+          <h2><a href="{{ letter.url }}">{{ letter.title }} →</a></h2>
+          <p class="date">{{ letter.date | date: '%B %d, %Y' }}</p>
+          <div class="tags">
+            {% for tag in letter.tags %}
+            <a class="tag" href="/tags/{{ tag | slugify: "ascii" }}/"># {{ tag }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <footer>
+    <a class="button" href="/subscribe">Subscribe</a>
+    <p class="kofi">☕ Wanna help support this newsletter? <a href='https://ko-fi.com/W7W01FZ37'>Buy us a coffee</a> or <a href='https://www.patreon.com/letterstosummer'>subscribe to our Patreon!</a></p>
+  </footer>
+</div>

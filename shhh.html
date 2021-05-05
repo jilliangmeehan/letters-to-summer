@@ -1,0 +1,25 @@
+---
+title: 👀
+permalink: "/shhh.html"
+description: Two friends sharing the things they're reading, watching, listening to,
+  and enjoying. In your inbox every other Thursday.
+layout: shhh
+---
+
+{% assign letters = site.documents | sort: 'date' | reverse %}
+
+<div class="posts">
+  {% for letter in letters %}
+    {% if letter.layout contains "-" %}
+    <div class="post">
+      <h2><a href="{{ letter.url }}">{{ letter.title }} →</a></h2>
+      <p class="date">{{ letter.date | date: '%B %d, %Y' }}</p>
+      <div class="tags">
+        {% for tag in letter.tags %}
+        <a class="tag" href="/tags/{{ tag | slugify: "ascii" }}/"># {{ tag }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
