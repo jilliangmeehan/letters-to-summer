@@ -21,6 +21,9 @@ collections:
   chat:
     title: Chat Letters
     output: true
+  vgc:
+    title: Video Game Club
+    output: true
 description: Two friends sharing the things they're reading, watching, listening to,
   and enjoying. In your inbox every other Thursday.
 url: https://letterstosummer.com
